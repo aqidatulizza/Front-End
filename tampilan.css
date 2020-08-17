@@ -1,0 +1,253 @@
+.utama{
+		max-width: 1080px;
+		margin: 20px auto;
+		background-color: grey;
+		padding: 15px;
+		overflow: hidden;
+		}		
+	.header {
+		background-color : black;
+		color : pink;
+		padding : 20px;
+		font-family : arial black;
+		font-size : 25px;
+		}
+	.menu {
+		display: block;
+		background-color:pink;
+		height:46px;
+		}
+	#navigasi {
+		position:relative;
+		line-height:30px;
+		margin:0;
+		padding:0;
+		list-style-type:none;
+		list-style-position:outside;
+		}
+	#navigasi a {
+		display:block;
+		padding:8px 16px;
+		background-color:pink;
+		color:black;
+		font-family: arial;
+		text-decoration:none;
+		
+		}
+	#navigasi a:hover {
+		background-color:black;
+		color:white;
+		}
+	#navigasi li {
+		position:relative;
+		float:left;
+		}
+    #navigasi ul {
+		position:absolute;
+		display:none;
+		margin:0;
+		padding:0;
+		list-style-type:none;
+		list-style-position:outside;
+		z-index:9999;
+		}
+	#navigasi li ul a{
+		width:12em;
+		height:auto;
+		float:left;
+		z-index:9999;
+		}
+	#navigasi li:hover ul{
+		display:block;
+		}
+	#navigasi li:hover ul ul{
+		display:none;
+		}
+	* {box-sizing: border-box;}
+		body {font-family: Verdana, sans-serif;}
+	.mySlides {display: none;}
+		img {vertical-align: middle;}
+	.slideshow-container {
+		max-width: 1040px;
+		position: relative;
+		margin: auto;
+		}
+	.text {
+		color: #f2f2f2;
+		font-size: 15px;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+		}
+	.numbertext {
+		color: #f2f2f2;
+		font-size: 12px;
+		padding: 8px 12px;
+		position: absolute;
+		top: 0;
+		}
+	.dot {
+		height: 15px;
+		width: 15px;
+		margin: 0 2px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+		transition: background-color 0.6s ease;
+		}
+	.active {
+		background-color: #717171;
+		}
+	.fade {
+		-webkit-animation-name: fade;
+		-webkit-animation-duration: 1.5s;
+		animation-name: fade;
+		animation-duration: 1.5s;
+		}
+	@-webkit-keyframes fade {
+		from {opacity: .4}
+		to {opacity: 1}
+		}
+	@keyframes fade {
+		from {opacity: .4}
+		to {opacity: 1}
+		}
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+		.text {font-size: 11px}
+		}
+	.kotak1{
+		color: grey;
+		padding: 50px;
+		margin: 15px auto;
+		background: black;
+		width:  1200px;
+		height: 700px;
+	}
+	.kotak2{
+		color: grey;
+		padding: 25px;
+		margin: 10px auto;
+		background: black;
+		width:  1100px;
+		height: 500px;
+		
+		}	
+	.kotak{
+		border: 1px solid gainsboro;
+		padding : 0px;
+		margin-bottom: 15px;
+		color:white;
+		}	
+	.kotak4{
+		border: 1px black;
+		padding : 0px;
+		margin-bottom: 13px;
+		color:white;
+		}	
+	.kotak3{
+		color: grey;
+		padding: 50px;
+		margin: 10px auto;
+		background: black;
+		width:  1000px;
+		height: 800px;
+		float: left;
+		font-size: 17px;
+		font-family: sans-serif;
+		}	
+	.menu-kiri{
+		padding:35px;
+		width: 330px;
+		margin-right:10px;
+		float: left;
+		}
+	.menu-tengah{
+		padding: 35px;
+		width: 330px;
+		margin-right: 10px;
+		float: left;
+		}
+	.menu-kanan{
+		padding: 0px;
+		width: 263px;
+		margin-right: 10px;
+		float: left;
+		}
+	
+	.menu-kanan, .menu-kiri, .menu-tengah{
+		margin-bottom:15px;
+		}
+	.tanggal-posting{
+		color: white;
+		text-align: center;
+		font-size: 12px;
+		margin-bottom: 10px;
+		display: block;
+		}
+	.tombol{
+		display: block;
+		text-decoration: none;
+		padding: 10px ;
+		width: 30%;
+		color: black;
+		border-radius: 5px;
+		text-align: center;
+		font-size: 10pt;
+		margin: 20px auto;
+		}
+	.tombol-lengkap{
+		background-color: pink;
+	}
+	.tombol:hover{
+		background-color: white;
+		transition-duration: 2s;
+	}
+	.tombollogin{
+		background:#46de4b;
+		color: white;
+		font-size: 10pt;
+		width: 30%;
+		border: none;
+		border-radius: 5px;
+		padding: 10px;
+		margin: 20px auto;
+		}
+	.menu-populer ul{
+		list-style-type=none;
+		}
+	.menu-populer ul li a{
+		text-decoration: none;
+		display: block;
+		padding: 13px;
+		border-bottom: 1px solid gainsboro;
+		margin-bottom: 12px;
+		color: pink;
+		}
+	.menu-populer ul li a:hover{
+		color: white;
+		border-bottom: 5px double chocolate;
+		transition-duration: 2s;
+		}
+	.search {
+			
+			padding:8px 15px;
+			background:white;
+			border:0px solid #dbdbdb;
+		}
+		.button {
+			position:relative;
+			padding:6px 15px;
+			left:-8px;
+			border:2px solid pink;
+			background-color:pink;
+			color:black;
+		}
+		.button:hover  {
+			background-color:grey;
+			color:white;
+			border:2px solid grey;
+		}
+		
